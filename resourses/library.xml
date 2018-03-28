@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<library xmlns="http://www.it-academy.by/library-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.it-academy.by/library-schema library-schema.xsd">
+
+	<books>
+		<book id="1" homeAvailable="false" readingRoomAvailable="true">
+			<title>Hyperspace</title>
+			<year>1999</year>
+			<count>3</count>
+			<countDays>5</countDays>
+			<authors>
+				<author>
+					<name>Roger</name>
+					<surname>Penrose</surname>
+				</author>
+			</authors>
+		</book>
+		<book id="2" homeAvailable="true" readingRoomAvailable="true">
+			<title>My Brief History</title>
+			<year>2013</year>
+			<count>7</count>
+			<countDays>11</countDays>
+			<authors>
+				<author>
+					<name>Stephen</name>
+					<surname>Hawking</surname>
+				</author>
+			</authors>
+		</book>
+	</books>
+	<magazines>
+		<magazine id="1" homeAvailable="true" readingRoomAvailable="true">
+			<title>The New Times</title>
+			<year>2015</year>
+			<count>11</count>
+			<countDays>15</countDays>
+			<editors>
+				<editor>
+					<name>Evgenia</name>
+					<surname>Albats</surname>
+				</editor>
+			</editors>
+		</magazine>
+	</magazines>
+	<newspapers>
+		<newspaper id="1" homeAvailable="true" readingRoomAvailable="true">
+			<title>The New York Times</title>
+			<year>2017</year>
+			<count>11</count>
+			<countDays>14</countDays>
+			<editors>
+				<editor>
+					<name>Arthur</name>
+					<surname>Sulzberger</surname>
+				</editor>
+			</editors>
+		</newspaper>
+	</newspapers>
+</library>
